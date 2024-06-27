@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    bottom: 525px;
+    font-size: 50px;
+    left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.color-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.question {
+    position: absolute;
+    color: white;
+    bottom: 400px;
+    left: 520px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 200px;
+    border: 2px solid black;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+#t1 {
+    color: red;
+}
+
+#t2 {
+    color: greenyellow;
+}
+
+#t3 {
+    color: blue;
+}
+
+#colourr {
+    position: absolute;
+    left: 725px;
+    top: 400px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: red;
+    border: 2px solid white;
+}
+
+#points {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 409px;
+    left: 540px;
+    font-size: 20px;
+    color: black;
+}
